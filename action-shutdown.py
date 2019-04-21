@@ -5,6 +5,10 @@ from hermes_python.hermes import Hermes
 import hermes_python
 import os
 
+MQTT_IP_ADDR = "localhost"
+MQTT_PORT = 1883
+MQTT_ADDR = "{}:{}".format(MQTT_IP_ADDR, str(MQTT_PORT))
+
 
 def shutdown(hermes, intent_message):
     current_session_id = intent_message.session_id
