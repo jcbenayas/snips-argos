@@ -1,2 +1,2 @@
-# snips-shutdown
-Shutdown Snips device
+# snips-argos
+Control de cmk con snips
